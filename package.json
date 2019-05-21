@@ -1,0 +1,29 @@
+{
+  "author": "Anthony Bellew",
+  "dependencies": {
+    "express": "^4.13.4",
+    "js-md5": "^0.4.1",
+    "flat-file-db": "^1.0.0",
+    "mysql": "^2.11.1",
+    "request": "^2.72.0",
+    "request-promise": "^3.0.0"
+  },
+  "description": "socket.io based chat",
+  "devDependencies": {},
+  "homepage": "https://redacted.com",
+  "keywords": [
+    "chat"
+  ],
+  "license": "MIT",
+  "main": "server.js",
+  "name": "nebulae",
+  "repository": {
+    "type": "git",
+    "url": "redacted"
+  },
+  "scripts": {
+    "test": "node ./server.js",
+    "start": "node server.js"
+  },
+  "version": "0.0.1"
+}
